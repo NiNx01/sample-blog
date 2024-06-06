@@ -1,0 +1,25 @@
+
+.hero {
+    height: 65vh;
+    background-color: rgba(0,0,0,0.6);
+    background-image: url(../images/hero-bg.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: top;
+    /* border: 2px solid red;    */
+    display: flex;
+}
+
+.container {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.hero-text {
+    max-width: 600px;
+    color: white;
+}
+p {
+    line-height: 1.5;
+}
